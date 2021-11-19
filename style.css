@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Arima_Madurai-Black';
+  src: url(ArimaMadurai-Black.ttf);
+}
+
+body {
+  font-family: 'Arima_Madurai-Black';
+  background-size: contain;
+  background-image: url('MusicBackground.jpg');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Arima_Madurai-Black';
+  font-size: 80px;
+  font-style: italic;
+  text-align: center;
+  color: White;
+}
+
+h2 {
+  font-family: 'Arima_Madurai-Black';
+  font-size: 50px;
+  font-style: italic;
+  text-align: center;
+  color: White;
+}
+
+
+.SongBoxGrid{
+  display: grid;
+  vertical-align: middle;
+  padding-bottom: 20px;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-row-gap: 12%;
+  grid-column-gap: 12%;
+}
+
+.grid-item{
+  background-color: White;
+  border: solid 10px #cccccc;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+.GenreContainer {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.ClassicalSound1, .ClassicalSound2, .ClassicalSound3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.PopSound1, .PopSound2, .PopSound3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.RockSound1, .RockSound2, .RockSound3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.GospelSound1, .GospelSound2, .GospelSound3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.AnimeSound1, .AnimeSound2, .AnimeSound3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
